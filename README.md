@@ -3,8 +3,9 @@
 
 <p>
 <img src="https://img.shields.io/static/v1?label=Program&message=Python&color=blue"/>
- <img src="https://img.shields.io/static/v1?label=major&message=Artificial Intelligence&color=blue"/>
-<a href="https://steamcommunity.com/id/FanPai666/"><img src="https://img.shields.io/static/v1?label=games&message=steam&color=orange"/></a>
+<p>
+ <p>
+<img src="https://img.shields.io/static/v1?label=Field of study&message=Artificial Intelligence&color=blue"/>
 </p>
 
 
