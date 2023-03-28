@@ -3,7 +3,7 @@
 
 <p>
 <img src="https://img.shields.io/static/v1?label=Program&message=Python&color=blue"/>
-<a href="https://space.bilibili.com/15472009?spm_id_from=333.999.0.0"><img src="https://img.shields.io/static/v1?label=bilibili&message=CSDN&color=blue"/></a>
+<a href="https://steamcommunity.com/id/FanPai666/"><img src="https://img.shields.io/static/v1?label=games&message=steam&color=orange"/></a>
 </p>
 
 
