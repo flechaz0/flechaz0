@@ -5,7 +5,7 @@
 <a href="https://www.sysu.edu.cn/"><img src="https://img.shields.io/static/v1?label=School&message=SYSU&color=green"/></a>
 </p>
  <p>
-<img src="https://img.shields.io/static/v1?label=Field of study&message=Artificial Intelligence&color=blue"/>
+<img src="https://img.shields.io/static/v1?label=Field of study&message=Artificial Intelligence & Marine Science&color=blue"/>
 </p>
 <p>
 <img src="https://img.shields.io/static/v1?label=Program&message=Python&color=blue"/>
