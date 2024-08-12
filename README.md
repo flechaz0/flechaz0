@@ -10,6 +10,6 @@
 <p>
 <img src="https://img.shields.io/static/v1?label=Program&message=Python&color=blue"/>
 </p>
-![GitHub Skyline](https://github.com/flechaz0/flechaz0/raw/main/github-skyline.png)
+
 
 
