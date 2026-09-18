@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>龙航 · Long Hang | 中山大学 · 生物信息 &amp; AI 全栈</title>
+<meta name="description" content="龙航的个人主页 — 中山大学资源与环境硕士，生物信息学与多组学数据库全栈开发，人工智能本科背景。" />
+<meta name="keywords" content="龙航, Long Hang, 中山大学, 生物信息学, 多组学, 全栈开发, 人工智能, AquaOmics" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!-- 星空背景 -->
+<canvas id="starfield"></canvas>
+<div class="grid-overlay"></div>
+
+<!-- 导航 -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">LH</span>
+      <span class="logo-text">龙航<span class="logo-dot">.</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about" data-nav>关于</a></li>
+      <li><a href="#education" data-nav>教育</a></li>
+      <li><a href="#projects" data-nav>项目</a></li>
+      <li><a href="#experience" data-nav>经历</a></li>
+      <li><a href="#skills" data-nav>技能</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">联系我</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header id="home" class="hero">
+  <div class="hero-content">
+    <div class="hero-badge reveal">
+      <span class="pulse-dot"></span> 欢迎来到我的主页
+    </div>
+    <h1 class="hero-title reveal">
+      你好，我是 <span class="gradient-text">龙航</span>
+    </h1>
+    <p class="hero-subtitle reveal">
+      中山大学 · 资源与环境硕士（研三）
+    </p>
+    <p class="hero-desc reveal">
+      专注 <span class="hl">生物信息学</span> 与 <span class="hl">多组学数据库全栈开发</span>，<br class="br-desk" />
+      从人工智能算法到基因组数据平台，我热衷于用代码连接生命科学与计算。
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#projects" class="btn btn-primary">查看项目 <span class="arrow">→</span></a>
+      <a href="#contact" class="btn btn-ghost">联系我</a>
+    </div>
+    <div class="hero-meta reveal">
+      <div class="meta-item"><span class="meta-num">2+</span><span class="meta-label">年科研积累</span></div>
+      <div class="meta-item"><span class="meta-num">3</span><span class="meta-label">核心项目</span></div>
+      <div class="meta-item"><span class="meta-num">2</span><span class="meta-label">段实习·大创</span></div>
+      <div class="meta-item"><span class="meta-num">0→1</span><span class="meta-label">全栈落地</span></div>
+    </div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="orbit">
+      <div class="orbit-ring ring-1"></div>
+      <div class="orbit-ring ring-2"></div>
+      <div class="orbit-ring ring-3"></div>
+      <div class="orbit-core">
+        <span class="core-glyph">🧬</span>
+      </div>
+      <div class="orbit-node node-1" title="生物信息">🧬</div>
+      <div class="orbit-node node-2" title="人工智能">🤖</div>
+      <div class="orbit-node node-3" title="全栈开发">⚡</div>
+      <div class="orbit-node node-4" title="数据库">🗄️</div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint reveal">
+    <span class="scroll-text">向下探索</span>
+    <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+  </a>
+</header>
+
+<!-- 关于 -->
+<section id="about" class="section">
+  <div class="section-head reveal">
+    <span class="section-tag">01 · ABOUT</span>
+    <h2 class="section-title">关于我</h2>
+    <p class="section-sub">跨学科背景下的复合型技术人</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-card glass reveal">
+      <p class="about-text">
+        我是龙航，中山大学研三学生。本科就读于 <strong>人工智能</strong> 专业，打下了扎实的编程与算法理论基础；硕士阶段转向 <strong>资源与环境</strong> 方向，深耕<strong>生物信息学与生物组学数据库的全栈开发</strong>。
+      </p>
+      <p class="about-text">
+        我独立完成了从需求设计、前后端架构到算法集成的水产多组学可视化平台 <strong>AquaOmics</strong> 的全栈落地，也参与过海洋牧场智能化平台的建设。我擅长用 AI Coding 工具提升研发效率，享受将复杂问题拆解为可落地解决方案的过程。
+      </p>
+      <p class="about-text">
+        校训铭记于心：<em>博学 · 审问 · 慎思 · 明辨 · 笃行</em>。
+      </p>
+      <div class="about-tags">
+        <span class="tag">生物信息学</span>
+        <span class="tag">人工智能</span>
+        <span class="tag">全栈开发</span>
+        <span class="tag">数据库</span>
+        <span class="tag">跨学科</span>
+      </div>
+    </div>
+    <div class="about-side glass reveal">
+      <h3 class="side-title">基本信息</h3>
+      <ul class="info-list">
+        <li><span class="info-k">姓名</span><span class="info-v">龙航</span></li>
+        <li><span class="info-k">出生</span><span class="info-v">2001.12</span></li>
+        <li><span class="info-k">学校</span><span class="info-v">中山大学</span></li>
+        <li><span class="info-k">方向</span><span class="info-v">生物信息 / AI</span></li>
+        <li><span class="info-k">城市</span><span class="info-v">广州</span></li>
+        <li><span class="info-k">语言</span><span class="info-v">CET-6</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 教育 -->
+<section id="education" class="section">
+  <div class="section-head reveal">
+    <span class="section-tag">02 · EDUCATION</span>
+    <h2 class="section-title">教育经历</h2>
+    <p class="section-sub">人工智能 → 资源与环境 · 生物大数据交叉</p>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass">
+        <div class="tl-header">
+          <h3>中山大学 · 资源与环境 硕士</h3>
+          <span class="tl-date">2024.09 — 2027.06</span>
+        </div>
+        <p class="tl-desc">主要方向为生物信息学、生物组学数据库的全栈开发</p>
+        <div class="tl-tags">
+          <span class="tag tag-sm">生物信息学</span>
+          <span class="tag tag-sm">多组学</span>
+          <span class="tag tag-sm">数据库全栈</span>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content glass">
+        <div class="tl-header">
+          <h3>中山大学 · 人工智能 本科</h3>
+          <span class="tl-date">2020.09 — 2024.06</span>
+        </div>
+        <p class="tl-desc">
+          GPA：<strong>3.4 / 4.0</strong><br />
+          主修课程：人工智能原理、模式识别与计算机视觉、自然语言处理、机器学习、智能机器人技术、数据库系统等
+        </p>
+        <div class="tl-tags">
+          <span class="tag tag-sm">机器学习</span>
+          <span class="tag tag-sm">NLP</span>
+          <span class="tag tag-sm">计算机视觉</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 项目 -->
+<section id="projects" class="section">
+  <div class="section-head reveal">
+    <span class="section-tag">03 · PROJECTS</span>
+    <h2 class="section-title">项目经历</h2>
+    <p class="section-sub">从 0 到 1 的数字化平台实践</p>
+  </div>
+  <div class="projects-grid">
+    <!-- AquaOmics -->
+    <div class="project-card glass reveal">
+      <div class="project-top">
+        <span class="project-icon">🧬</span>
+        <span class="project-flag">硕士毕设</span>
+      </div>
+      <h3 class="project-title">水产物种多组学可视化分析平台</h3>
+      <span class="project-en">AquaOmics</span>
+      <p class="project-period">2025.10 — 至今</p>
+      <p class="project-desc">
+        独立负责搭建水产多组学可视化分析平台 AquaOmics，全程主导项目需求设计、前后端架构搭建、数据库构建、算法集成与可视化开发，完成从 0 到 1 的全栈落地。
+      </p>
+      <div class="project-stack">
+        <span class="stack">Python</span>
+        <span class="stack">Django</span>
+        <span class="stack">HTML/CSS/JS</span>
+        <span class="stack">SQLite</span>
+        <span class="stack">PostgreSQL</span>
+        <span class="stack">Linux</span>
+      </div>
+      <p class="project-note">整合多组学分析流程，为水产育种与分子机制研究提供高效可靠的专属分析工具。</p>
+    </div>
+
+    <!-- C-VIX -->
+    <div class="project-card glass reveal">
+      <div class="project-top">
+        <span class="project-icon">📈</span>
+        <span class="project-flag flag-alt">大创项目</span>
+      </div>
+      <h3 class="project-title">基于深度学习算法的 C-VIX 指数预测对比研究</h3>
+      <span class="project-en">C-VIX Prediction</span>
+      <p class="project-period">2023.01 — 2023.09</p>
+      <p class="project-desc">
+        大学生创新训练计划项目。使用不同的深度学习算法对金融行业的 C-VIX 指数（衡量市场波动与市场情绪的重要指标）进行预测。
+      </p>
+      <div class="project-stack">
+        <span class="stack">深度学习</span>
+        <span class="stack">数据预处理</span>
+        <span class="stack">Python</span>
+      </div>
+      <p class="project-note">个人负责算法研究与选取、原始数据获取与预处理（异常数据处理、归一化等）。</p>
+    </div>
+
+    <!-- 台山一号 -->
+    <div class="project-card glass reveal">
+      <div class="project-top">
+        <span class="project-icon">🌊</span>
+        <span class="project-flag flag-alt">业务平台</span>
+      </div>
+      <h3 class="project-title">台山一号海洋牧场智能化平台</h3>
+      <span class="project-en">Marine Ranch Platform</span>
+      <p class="project-period">2025.06 — 2025.11</p>
+      <p class="project-desc">
+        参与海洋牧场智能化业务平台开发与部署，面向海洋业务场景开展数字化建设，助力传统海洋业务数字化升级。
+      </p>
+      <div class="project-stack">
+        <span class="stack">后端接口</span>
+        <span class="stack">Web 可视化</span>
+        <span class="stack">数据整理</span>
+      </div>
+      <p class="project-note">参与多源业务数据整理与结构化处理，协助后端接口与 Web 可视化模块开发，保障平台数据服务稳定输出。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 经历 -->
+<section id="experience" class="section">
+  <div class="section-head reveal">
+    <span class="section-tag">04 · EXPERIENCE</span>
+    <h2 class="section-title">实习 &amp; 校园经历</h2>
+    <p class="section-sub">在实践中成长</p>
+  </div>
+
+  <div class="exp-block reveal">
+    <h3 class="exp-title"><span class="exp-icon">💼</span> 中航材利顿航空科技股份有限公司 <span class="exp-role">算法实习生</span></h3>
+    <p class="exp-period">2024.06 — 2024.09</p>
+    <ul class="exp-list">
+      <li>基于 Python 对航空领域文档进行结构化拆解，确保数据的准确性与完整性，支撑下游大模型文本比对业务开发。</li>
+      <li>调用主流大模型 API 完成文档内容交叉比对，设计不同 Prompt，识别并报告文档间异同，提升文档处理精度与自动化程度。</li>
+      <li>搭建航空领域文档评测体系，横向对比多款大模型文档匹配与差异识别效果，输出模型选型与 Prompt 调优落地策略。</li>
+    </ul>
+    <div class="project-stack">
+      <span class="stack">Python</span>
+      <span class="stack">大模型</span>
+      <span class="stack">Prompt 工程</span>
+      <span class="stack">NLP</span>
+    </div>
+  </div>
+
+  <div class="exp-grid">
+    <div class="exp-block glass reveal">
+      <h3 class="exp-title"><span class="exp-icon">🌱</span> 中山大学绿色青年组织 <span class="exp-role">宣传部干事</span></h3>
+      <p class="exp-period">2021.01 — 2023.09</p>
+      <p class="exp-desc">负责社团公众号文章编辑与排版，参与社团活动的宣传工作。</p>
+    </div>
+    <div class="exp-block glass reveal">
+      <h3 class="exp-title"><span class="exp-icon">🤝</span> 中山大学青年志愿者协会 <span class="exp-role">常驻志愿者</span></h3>
+      <p class="exp-period">2022.09 — 2024.06</p>
+      <p class="exp-desc">长期参与志愿服务，乐于奉献，具备良好的团队协作意识。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 技能 -->
+<section id="skills" class="section">
+  <div class="section-head reveal">
+    <span class="section-tag">05 · SKILLS</span>
+    <h2 class="section-title">技能 &amp; 能力</h2>
+    <p class="section-sub">技术栈覆盖前后端</p>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skill-cat glass reveal">
+      <h3 class="skill-cat-title">💻 编程语言</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span class="skill-name">Python</span><div class="bar"><div class="bar-fill" style="--w:92%"></div></div><span class="skill-pct">92%</span></div>
+        <div class="skill-bar"><span class="skill-name">JavaScript</span><div class="bar"><div class="bar-fill" style="--w:80%"></div></div><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><span class="skill-name">SQL</span><div class="bar"><div class="bar-fill" style="--w:75%"></div></div><span class="skill-pct">75%</span></div>
+      </div>
+    </div>
+    <div class="skill-cat glass reveal">
+      <h3 class="skill-cat-title">🌐 前后端</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span class="skill-name">HTML / CSS</span><div class="bar"><div class="bar-fill" style="--w:85%"></div></div><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><span class="skill-name">Django</span><div class="bar"><div class="bar-fill" style="--w:88%"></div></div><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><span class="skill-name">PostgreSQL / SQLite</span><div class="bar"><div class="bar-fill" style="--w:78%"></div></div><span class="skill-pct">78%</span></div>
+      </div>
+    </div>
+    <div class="skill-cat glass reveal">
+      <h3 class="skill-cat-title">🛠️ 工具 &amp; 平台</h3>
+      <div class="skill-bars">
+        <div class="skill-bar"><span class="skill-name">Linux</span><div class="bar"><div class="bar-fill" style="--w:82%"></div></div><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><span class="skill-name">Git</span><div class="bar"><div class="bar-fill" style="--w:84%"></div></div><span class="skill-pct">84%</span></div>
+        <div class="skill-bar"><span class="skill-name">AI Coding (Copilot/Codex)</span><div class="bar"><div class="bar-fill" style="--w:90%"></div></div><span class="skill-pct">90%</span></div>
+      </div>
+    </div>
+    <div class="skill-cat glass reveal">
+      <h3 class="skill-cat-title">🧠 专业领域</h3>
+      <div class="chip-cloud">
+        <span class="chip">生物信息学</span>
+        <span class="chip">多组学分析</span>
+        <span class="chip">机器学习</span>
+        <span class="chip">深度学习</span>
+        <span class="chip">自然语言处理</span>
+        <span class="chip">计算机视觉</span>
+        <span class="chip">数据库设计</span>
+        <span class="chip">数据可视化</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="extra-row reveal">
+    <div class="extra-item glass">
+      <span class="extra-icon">🗣️</span>
+      <div><strong>语言能力</strong><p>CET-4 · CET-6</p></div>
+    </div>
+    <div class="extra-item glass">
+      <span class="extra-icon">📋</span>
+      <div><strong>办公软件</strong><p>Office · WPS</p></div>
+    </div>
+    <div class="extra-item glass">
+      <span class="extra-icon">🏋️</span>
+      <div><strong>生活态度</strong><p>热爱生活 · 健身</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 联系 -->
+<section id="contact" class="section contact-section">
+  <div class="section-head reveal">
+    <span class="section-tag">06 · CONTACT</span>
+    <h2 class="section-title">联系我</h2>
+    <p class="section-sub">期待与你交流</p>
+  </div>
+  <div class="contact-grid reveal">
+    <a href="mailto:longh1224@163.com" class="contact-card glass">
+      <span class="contact-icon">📧</span>
+      <div><strong>邮箱</strong><p>longh1224@163.com</p></div>
+    </a>
+    <a href="tel:+8613533484160" class="contact-card glass">
+      <span class="contact-icon">📱</span>
+      <div><strong>电话</strong><p>+86 135-3348-4160</p></div>
+    </a>
+    <a href="https://github.com/flechaz0" target="_blank" rel="noopener" class="contact-card glass">
+      <span class="contact-icon">🐙</span>
+      <div><strong>GitHub</strong><p>@flechaz0</p></div>
+    </a>
+  </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="footer">
+  <p>© 2026 龙航 · Long Hang — 博学 · 审问 · 慎思 · 明辨 · 笃行</p>
+  <p class="footer-sub">Built with ❤️ &amp; 中山大学 · 资源与环境</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
